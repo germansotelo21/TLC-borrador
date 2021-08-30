@@ -29,8 +29,10 @@ class MainActivity : AppCompatActivity() {
 
         val fechaView = findViewById<TextView>(R.id.fechaCorrecta)
         fechaView.text="Su sanción va hasta: $fechaCorrecta"
+        var frase = "un primer cambio commit"
 
         println(fechaCorrecta)
+        println(frase)
 
     }
 }
