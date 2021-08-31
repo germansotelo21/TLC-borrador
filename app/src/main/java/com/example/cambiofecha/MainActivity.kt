@@ -28,11 +28,17 @@ class MainActivity : AppCompatActivity() {
         }
 
         val fechaView = findViewById<TextView>(R.id.fechaCorrecta)
-        fechaView.text="Su sanción va hasta: $fechaCorrecta"
-        var frase = "un primer cambio commit"
+        val fechaView2 = findViewById<TextView>(R.id.branch)
 
-        println(fechaCorrecta)
-        println(frase)
+        fechaView.text="$fechaCorrecta, esta información la estoy agregando desde la ramas master"
+        
+
+        fechaView.text="$fechaCorrecta"
+        fechaView2.text="este texto es desde la rama cabecera, subiendo git hub"
+
+
+
+
 
     }
 }

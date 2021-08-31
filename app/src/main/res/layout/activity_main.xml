@@ -35,10 +35,12 @@
         </TextView>
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/branch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="OK"
+            android:textSize="40sp"
+            android:textColor="@color/rojo"/>
 
 
     </RelativeLayout>
