@@ -30,7 +30,8 @@ class MainActivity : AppCompatActivity() {
         val fechaView = findViewById<TextView>(R.id.fechaCorrecta)
 
 
-        fechaView.text="Fecha de sanción desde hub a git: $fechaCorrecta"
+        fechaView.text="Fecha de sanción : $fechaCorrecta"
+        val prueba="Quinto commit  git hub"
         
 
 
