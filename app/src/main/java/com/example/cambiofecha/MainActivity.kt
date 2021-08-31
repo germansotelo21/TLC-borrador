@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
 
         fechaView.text="Fecha de sanción : $fechaCorrecta"
-        val prueba="Quinto commit  git hub"
+        val prueba="Pruebas desde la rama nueva"
         
 
 
